@@ -146,7 +146,7 @@
     @media screen and (max-width: 937px) {
       #botoes .btn {
         width: 120px;
-        font-size: small; } }
+        font-size: smaller; } }
 
 #paragrafo p {
   text-align: center; }
