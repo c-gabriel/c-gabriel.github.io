@@ -1,0 +1,101 @@
+#apresentacao {
+  padding-top: 70px;
+  background-image: linear-gradient(#4f4f4f 70%, white 30%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    height: 180px;
+    width: 180px;
+    border: white solid 5px;
+    @include sombra-padrao(5px, 4px, 5px, 0px, rgba(0, 0, 0, 0.75));
+    z-index: 3;
+  }
+
+  h2,
+  h5 {
+    margin-top: 1px;
+    color: white;
+    text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.75);
+  }
+
+  @media screen and ($mobile-width-max) {
+    padding-top: 4em;
+
+    h2 {
+      font-size: 2em;
+      text-align: center;
+    }
+
+    h5 {
+      text-align: center;
+    }
+
+    img {
+      height: 160px;
+      width: 160px;
+      border: white solid 5px;
+      @include sombra-padrao(5px, 4px, 5px, 0px, rgba(0, 0, 0, 0.75));
+      z-index: 3;
+    }
+  }
+}
+
+#intro-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -5%;
+
+  @media screen and ($mobile-width-max) {
+    margin-top: -15%;
+  }
+}
+
+#intro {
+  width: 100%;
+  @include sombra-padrao(5px, 4px, 5px, 0px, rgba(0, 0, 0, 0.75));
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card-body ul {
+  margin-right: 4%;
+  margin-top: 5%;
+
+  @media screen and ($mobile-width-max) {
+    display: none;
+  }
+}
+
+.card-body ul a {
+  font-size: 36px;
+  color: grey;
+  margin-right: 10px;
+}
+
+#botoes {
+  justify-content: space-between;
+
+  .btn {
+    margin-right: 10px;
+    width: 150px;
+    @include sombra-padrao(5px, 4px, 5px, 0px, rgba(0, 0, 0, 0.75));
+
+    @media screen and ($mobile-width-max) {
+      width: 120px;
+    }
+  }
+}
+
+#paragrafo p {
+  text-align: center;
+
+  @media screen and ($mobile-width-max) {
+    margin-top: 15%;
+  }
+}

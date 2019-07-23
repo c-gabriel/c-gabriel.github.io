@@ -1,0 +1,85 @@
+#formacao {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  h2 {
+    color: $cor-padrao;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.75);
+  }
+
+  @media screen and ($mobile-width-max) {
+    margin-top: 2em;
+  }
+}
+
+#formacao-titulo {
+  font-weight: bold;
+}
+
+#formacao-instituicao {
+  font-style: italic;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  width: 30%;
+
+  > li {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+
+  @media screen and ($mobile-width-max) {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    > li {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin: 0;
+      padding-left: 0;
+      font-size: 1em;
+    }
+  }
+}
+
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 3;
+
+  @media screen and ($mobile-width-max) {
+    left: 10px;
+  }
+}
+
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 3;
+
+  @media screen and ($mobile-width-max) {
+    left: 1px;
+  }
+}

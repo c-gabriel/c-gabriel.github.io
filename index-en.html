@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/aos.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<title>Carlos Gabriel</title>
+</head>
+
+<body>
+	<header>
+		<div id="menu">
+			<nav class="navbar navbar-expand navbar-dark" id="navbar">
+				<a class="navbar-brand" href="#menu">Carlos Gabriel</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" id="a-perfil" href="#intro-container">Profile<span
+									class="sr-only">(Página atual)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-experiencia" href="#experiencia">Experience</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-formacao" href="#formacao">Education</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-cursos" href="#cursos">Courses</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-idiomas" href="#idiomas">Languages</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-qualificacoes" href="#qualificacoes">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-projetos" href="#projetos">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-contato" href="#contato">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="container-fluid inline align-middle" id="linguagens">
+					<div>
+						<a href="index-pt.html"><img src="img/br-icon.png" class="bandeiras" title="Português"></a>
+						<a href="index-en.html"><img src="img/us-icon.png" class="bandeiras" title="English"></a>
+						<a href="index-es.html"><img src="img/sp-icon.png" class="bandeiras" title="Español"></a>
+						<a href="index-fr.html"><img src="img/fr-icon.png" class="bandeiras" title="Français"></a>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div id="menu-mobile">
+			<nav class="navbar navbar-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<span id="titulo">Carlos Gabriel de Abreu Almeida</span>
+			</nav>
+			<div class="collapse" id="navbarToggleExternalContent">
+				<div class="p-4">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" id="a-perfil" href="#intro-container">Profile<span
+									class="sr-only">(Página atual)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-experiencia" href="#experiencia">Experience</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-formacao" href="#formacao">Education</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-cursos" href="#cursos">Courses</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-idiomas" href="#idiomas">Languages</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-qualificacoes" href="#qualificacoes">Qualifications</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-projetos" href="#projetos">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="a-contato" href="#contato">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="container-fluid inline align-middle" id="linguagens">
+					<span>Choose language:</span>
+					<div>
+						<a href="index-pt.html"><img src="img/br-icon.png" class="bandeiras" title="Português"></a>
+						<a href="index-en.html"><img src="img/us-icon.png" class="bandeiras" title="English"></a>
+						<a href="index-es.html"><img src="img/sp-icon.png" class="bandeiras" title="Español"></a>
+						<a href="index-fr.html"><img src="img/fr-icon.png" class="bandeiras" title="Français"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid" id="apresentacao">
+			<h2>Carlos Gabriel de Abreu Almeida</h2>
+			<h5>Systems Analyst and Developer</h5>
+			<img src="img/eu.jpg" class="rounded-circle mx-auto d-block z-depth-3">
+		</div>
+
+	</header>
+
+	<div class="container" id="intro-container">
+		<div class="card" id="intro">
+			<div class="card-body" id="card-body-intro">
+				<ul>
+					<a href="https://github.com/c-gabriel" target="_blank"><i class="fab fa-github"
+							title="Github"></i></a>
+					<a href="https://www.linkedin.com/in/carlos-gabriel-almeida" target="_blank"><i
+							class="fab fa-linkedin" title="LinkedIn"></i></a>
+				</ul>
+				<div id="paragrafo">
+					<p>I develop my activities in the best way possible. I like to always be learning and, therefore, I always look for new challenges. Even under pressure, I am not intimidated by the unknown and, aware of my knowledge, I use the tools I have to get the information I need to accomplish the task.
+					</p>
+					<p>I aim to develop my skills regarding the process of systems development and management. I am looking for opportunities that generates challenges and allows me to reach my full potential.
+					</p>
+				</div>
+				<div id="botoes">
+					<button type="button" class="btn btn-info" id="btn-download">Download CV</button>
+					<button type="button" class="btn btn-info" id="btn-contato">Contact</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="experiencia">
+
+		<h2>Work Experience</h2>
+
+		<div class="container" id="info-exp">
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>Senior System Analyst</h5>
+					<h6>Cement Roadstone Holdings (CRH Brasil)</h6>
+					<h6 class="card-subtitle mb-2 text-muted">2015/actual</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						The company aquired actives from Lafarge Brasil, including all IT area. All the aspects involved
+						on the job still the same, working both for CRH and Lafarge Brasil, during the segregation
+						process. After, acting just for CRH, I worked on a datacenter migration project, enterprise
+						incorporation end database unification.
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>System Analyst</h5>
+					<h6>Lafarge Brasil S/A</h6>
+					<h6 class="card-subtitle mb-2 text-muted">2012/2015</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						My main responsabilities were: to act on development, enhancements, support and fixes of the
+						corporative application systems, in order to guarantee the operation and availability of the
+						aplications; monthly closing routines; to ensure that new funcionalities implemented are in
+						accordance with the specifications of the project and that they have correct functional and
+						technical documentation, acting on tests; to act on assurance and control of the necessaries
+						calls to the correct operation of systems by interacting with softwares suppliers and
+						infrastructure team; to work on maintance of a close and professional relationship with the
+						business areas, on meetings and messages exchanges using suitable language.
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>IT Assistent</h5>
+					<h6>Lafarge Brasil S/A</h6>
+					<h6 class="card-subtitle mb-2 text-muted">2012</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						I was responsable for the maintance of the source codes for legacy systems and systems
+						technology migration projects; to elaborate database searches and objects, on Oracle DB;
+						to support the final user on the plants' production systems.
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>IT Intern</h5>
+					<h6>Lafarge Brasil S/A</h6>
+					<h6 class="card-subtitle mb-2 text-muted">2011/2012</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						I was responsable for the maintance of the source codes for legacy systems and systems
+						technology migration projects; to elaborate database searches and objects, on Oracle DB;
+						to support the final user on the plants' production systems.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="formacao">
+		<h2>Education</h2>
+		<ul class="timeline">
+			<li>
+				<a id="formacao-titulo">Postgraduate Studies</a>
+				<a class="float-right" id="formacao-titulo">January/2015 - May/2016</a>
+				<p id="formacao-instituicao">ESAB - Escola Superior Aberta do Brasil</p>
+				<p>Lato Sensu in Systems Engineering</p>
+			</li>
+			<li>
+				<a id="formacao-titulo">University Graduate</a>
+				<a class="float-right" id="formacao-titulo">March/2008 - October/2012</a>
+				<p id="formacao-instituicao">UFF - Universidade Federal Fluminense</p>
+				<p>Bachelor of Science in Computer Science</p>
+			</li>
+			<li>
+				<a id="formacao-titulo">High School</a>
+				<a class="float-right" id="formacao-titulo">February/2001 - December/2003</a>
+				<p id="formacao-instituicao">GAP - Colégio Aprovação</p>
+			</li>
+		</ul>
+	</div>
+
+	<div id="cursos">
+		<h2>Extracurricular Courses</h2>
+		<ul id="lista-cursos">
+			<li>
+				<a>
+					<h2>Structure and flow of information</h2>
+					<p>Escola Superior Aberta do Brasil</p>
+					<p>40 hours course</p>
+				</a>
+			</li>
+
+			<li>
+				<a>
+					<h2>Management Information System</h2>
+					<p>Escola Superior Aberta do Brasil</p>
+					<p>40 hours course</p>
+				</a>
+			</li>
+
+			<li>
+				<a>
+					<h2>Technology management and innovation</h2>
+					<p>Escola Superior Aberta do Brasil</p>
+					<p>40 hours course</p>
+				</a>
+			</li>
+
+			<li>
+				<a>
+					<h2>Basic training of managers</h2>
+					<p>Escola Superior Aberta do Brasil</p>
+					<p>120 hours course</p>
+				</a>
+			</li>
+
+			<li>
+				<a>
+					<h2>Javascript developer career</h2>
+					<p>Alura</p>
+					<p>80 hours course</p>
+				</a>
+			</li>
+
+			<li>
+				<a>
+					<h2>Java web developer career</h2>
+					<p>Alura</p>
+					<p>110 hours course</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="idiomas">
+		<h2>Languages</h2>
+
+		<div class="progress">
+			<h5 class="titulo">Portuguese</h5>
+			<div class="idioma-barra">
+				<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+					style="max-width: 100%">
+					<span class="title">100%</span>
+				</div>
+			</div>
+
+			<h5 class="titulo">English</h5>
+			<div class="idioma-barra">
+				<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+					style="max-width: 80%">
+					<span class="title">80%</span>
+				</div>
+			</div>
+
+			<h5 class="titulo">Spanish</h5>
+			<div class="idioma-barra">
+				<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+					style="max-width: 50%">
+					<span class="title">50%</span>
+				</div>
+			</div>
+
+			<h5 class="titulo">French</h5>
+			<div class="idioma-barra">
+				<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+					style="max-width: 40%">
+					<span class="title">40%</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="qualificacoes">
+		<h2>Professional Skills</h2>
+
+		<div class="skills">
+			<div class="card qualificacao-grupo">
+				<div class="card-header">
+					<h4>Front-end</h4>
+				</div>
+				<h5 class="titulo">HTML</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 90%">
+						<span class="title">90%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">CSS</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 70%">
+						<span class="title">70%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">Javascript</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 60%">
+						<span class="title">60%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">JQuery</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 60%">
+						<span class="title">60%</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="card qualificacao-grupo">
+				<div class="card-header">
+					<h4>Back-end</h4>
+				</div>
+
+				<h5 class="titulo">Visual Basic</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 60%">
+						<span class="title">60%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">Java</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 70%">
+						<span class="title">70%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">JPA</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 50%">
+						<span class="title">50%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">C#</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 40%">
+						<span class="title">40%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">Python</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 50%">
+						<span class="title">50%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">Django</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 40%">
+						<span class="title">40%</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="card qualificacao-grupo">
+				<div class="card-header">
+					<h4>Database</h4>
+				</div>
+
+				<h5 class="titulo">Oracle</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 80%">
+						<span class="title">80%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">SQL Server</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 50%">
+						<span class="title">50%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">MySQL</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 70%">
+						<span class="title">70%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">Access</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 40%">
+						<span class="title">40%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">PL/SQL</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 50%">
+						<span class="title">50%</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="card qualificacao-grupo">
+				<div class="card-header">
+					<h4>Software Engineering</h4>
+				</div>
+
+				<h5 class="titulo">Requirements analysis</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 70%">
+						<span class="title">70%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">Acceptance test</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 70%">
+						<span class="title">70%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">Integration test</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 50%">
+						<span class="title">50%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">ER Diagram</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 50%">
+						<span class="title">50%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">UML</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 50%">
+						<span class="title">50%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">Uses cases</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 60%">
+						<span class="title">60%</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="card qualificacao-grupo">
+				<div class="card-header">
+					<h4>ERP (Support)</h4>
+				</div>
+
+				<h5 class="titulo">JD Edwards version 7 (XE)</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 40%">
+						<span class="title">40%</span>
+					</div>
+				</div>
+
+				<h5 class="titulo">JD Edwards version 9 (Enterprise One)</h5>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						aria-valuemax="100" style="max-width: 70%">
+						<span class="title">70%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="projetos">
+		<h2>Projects</h2>
+
+		<div class="container" id="info-projetos">
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>Corporate incorporation project</h5>
+					<h6>Cement Roadstone Holdings (CRH Brasil)</h6>
+					<h6 class="card-subtitle mb-2 text-muted">October/2016 - January/2017</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						I was responsible for ensuring the functionality of the systems and the integrity of the
+						information managed by the industrial area applications and the Purchase and P2P modules, of the
+						ERP as a result of changes to the company name, CNPJ and internal identification codes of the
+						company to be incorporated. I was responsible, too, for the execution of integration tests and,
+						also, acceptance with end users.
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>Datacenter migration project</h5>
+					<h6>Cement Roadstone Holdings (CRH Brasil)</h6>
+					<h6 class="card-subtitle mb-2 text-muted">January/2016 - August/2016</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						I was responsible for analyzing the business rules for the Purchasing and P2P modules of the ERP
+						to inform them to the datacenter migration team. I assisted the team of developers in developing
+						new interface processes with peripheral systems from servers already present in our internal
+						network. Responsible for integration tests and also acceptance with end users.
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>Split project</h5>
+					<h6>Lafarge Brasil S/A / Cement Roadstone Holdings (CRH Brasil)</h6>
+					<h6 class="card-subtitle mb-2 text-muted">October/2014 - August/2015</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						I was responsible for the analysis and treatment of the data of peripheral systems to the ERP,
+						segregating what belonged to the old company and what was information of the new one. I was also
+						responsible for handling and testing the integration of information between these systems and
+						the ERP environment of the new company.
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>New ERP implementation</h5>
+					<h6>Lafarge Brasil S/A</h6>
+					<h6 class="card-subtitle mb-2 text-muted">August/2012 - June/2013</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						I was responsible for ensuring the integration of information between peripheral production
+						systems with the new version of ERP deployed by the company. It was necessary to remodel some of
+						these processes.
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>Production Control System Technology Update</h5>
+					<h6>Lafarge Brasil S/A</h6>
+					<h6 class="card-subtitle mb-2 text-muted">April/2012 - June/2012</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						I was responsible for migrating the technology used in the development of legacy production
+						control system from Visual Basic 3 and Oracle 7 to Visual Basic 6 and Oracle 10g.
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>Health and Safety system implementation</h5>
+					<h6>Lafarge Brasil S/A</h6>
+					<h6 class="card-subtitle mb-2 text-muted">February/2012 - August/2012</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						I was responsible for the survey of requirements in the business areas involved, acting as a
+						point of communication between the users and the system supplier. I was also responsible, with
+						the developers, for the tests and trainings performed.
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header bg-dark">
+					<h5>Corporate reorganization</h5>
+					<h6>Lafarge Brasil S/A</h6>
+					<h6 class="card-subtitle mb-2 text-muted">November/2011 - January/2012</h6>
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						I was responsible for ensuring the functionality of the systems and the integrity of the
+						information managed by the applications of the industrial area, due to the changes of corporate
+						name and CNPJ.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contato">
+		<h2>Contact</h2>
+
+		<div id="painel-contato">
+			<div class="card" id="card-contato">
+				<div class="card-body">
+					<i class="fas fa-phone"></i>
+					<p>+55(21) 98649-7860</p>
+					<i class="fas fa-envelope"></i>
+					<p>carlos.gabriel@carlosgalmeida.com</p>
+					<i class="fas fa-globe-americas"></i>
+					<p>www.carlosgalmeida.com</p>
+					<i class="fab fa-github" title="Github"></i>
+					<a href="https://github.com/c-gabriel" target="_blank">
+						<p>https://github.com/c-gabriel</p>
+					</a>
+					<i class="fab fa-linkedin" title="LinkedIn"></i>
+					<a href="https://www.linkedin.com/in/carlos-gabriel-almeida" target="_blank">
+						<p>https://www.linkedin.com/in/carlos-gabriel-almeida</p>
+					</a>
+				</div>
+			</div>
+			<div class="card" id="envia-email">
+				<span>Send message</span>
+				<form id="form-contato" onsubmit="sendmail()">
+					<div class="textbox">
+						<i class="fas fa-user"></i>
+						<input type="text" class="form-control" id="nome" placeholder="Name" required
+							oninvalid="this.setCustomValidity('A name is required')" oninput="setCustomValidity('')">
+					</div>
+					<div class="textbox">
+						<i class="fas fa-clipboard"></i>
+						<input type="text" class="form-control" id="assunto" placeholder="Subject" required
+							oninvalid="this.setCustomValidity('A subject is required')" oninput="setCustomValidity('')">
+					</div>
+
+					<div class="textbox">
+						<i class="fas fa-envelope"></i>
+						<input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+							placeholder="E-mail" required oninvalid="this.setCustomValidity('A valid email is required')"
+							oninput="setCustomValidity('')">
+					</div>
+					<div class="textbox">
+						<i class="fas fa-file-alt"></i>
+						<textarea class="form-control" id="validationTextarea" placeholder="Message" required
+							oninvalid="this.setCustomValidity('Write the message')"
+							oninput="setCustomValidity('')"></textarea>
+					</div>
+
+					<button type="submit" class="btn btn-info" id="sendmail-btn">Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/tooltip.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/aos.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/sendmail.js"></script>
+</body>
+
+</html>
