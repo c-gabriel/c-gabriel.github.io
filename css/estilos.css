@@ -145,7 +145,8 @@
     box-shadow: 5px 4px 5px 0px rgba(0, 0, 0, 0.75); }
     @media screen and (max-width: 937px) {
       #botoes .btn {
-        width: 120px;
+        margin-right: 3px;
+        width: 125px;
         font-size: smaller; } }
 
 #paragrafo p {
